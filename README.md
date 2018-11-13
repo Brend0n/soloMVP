@@ -1,7 +1,6 @@
 # soloMVP
 
 #Socket.io
-![alt text](https://github.com/codechrysalis/cc6-project.continuous-delivery-vue/blob/master/img/Screen%20Shot.png)
 ![Vue Version](https://img.shields.io/badge/Vue.js-2.5.16-green.svg)
 ![Socket.io Version](https://img.shields.io/badge/Socket.io-2.1.1-green.svg)
 ![Postgres Version](https://img.shields.io/badge/Postgres-7.4.3-orange.svg)
