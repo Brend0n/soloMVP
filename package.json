@@ -1,0 +1,24 @@
+{
+  "name": "soloMVP",
+  "version": "1.0.0",
+  "description": "Socket.io for ChatAPP",
+  "main": "server/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext .js .",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "cross-env NODE_ENV=test mocha --reporter nyan test/test.js && yarn lint"
+  },
+  "author": "Brendon BOUZAS",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
